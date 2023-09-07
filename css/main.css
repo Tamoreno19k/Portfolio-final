@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17,29,41);
+}
+img#portfolio-logo {
+    width: 10%;
+}
+nav.menu-principal {
+   
+}
+img.nav-menu {
+    width: 2rem;
+}
+ul.menu {
+    display: flex;
+    gap: 5rem;
+}
