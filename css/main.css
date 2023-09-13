@@ -5,18 +5,37 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(17,29,41);
+    background-color: rgb(241, 228, 241);
 }
 img#portfolio-logo {
-    width: 10%;
-}
-nav.menu-principal {
-   
+    width: 20rem;
 }
 img.nav-menu {
-    width: 2rem;
+    width: 7rem;
 }
 ul.menu {
     display: flex;
     gap: 5rem;
+    list-style: none;
+    padding: 0 2rem;
+}
+main#index-main {
+    background-image: url(/Portfolio-final/images/Index-cover.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vw; 
+    opacity: 0.8;
+}
+.main-tittle{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+h1{
+    padding-top: 20rem;
+    font-size: 6rem;
+}
+h2{
+    font-size: 4.5rem;
 }
